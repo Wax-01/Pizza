@@ -8,7 +8,7 @@ import java.util.logging.Logger;
  *
  * @author cesarvefe
  */
-public class MoldeadorPizzaDelgada {
+public class MoldeadorPizzaDelgada extends Moldeador {
 
     public void moldearPizzaPequena() {
         Logger.getLogger(MoldeadorPizzaDelgada.class.getName())
@@ -18,7 +18,7 @@ public class MoldeadorPizzaDelgada {
 
     }
 
-    public void molderarPizzaMediana() {
+    public void moldearPizzaMediana() {
         Logger.getLogger(MoldeadorPizzaDelgada.class.getName())
                 .log(Level.INFO, "[O] Moldeando pizza mediana de masa convencional.");
         

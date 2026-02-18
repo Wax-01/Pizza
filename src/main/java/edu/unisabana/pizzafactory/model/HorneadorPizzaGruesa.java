@@ -1,4 +1,3 @@
-
 package edu.unisabana.pizzafactory.model;
 
 import java.util.logging.Level;
@@ -8,13 +7,13 @@ import java.util.logging.Logger;
  *
  * @author cesarvefe
  */
-public class HorneadorPizzaDelgada extends Horneador {
+public class HorneadorPizzaGruesa extends Horneador {
 
     public void hornear() {
-        Logger.getLogger(HorneadorPizzaDelgada.class.getName())
-            .log(Level.INFO, "[~~] Horneando la pizza delgada con masa convencional.");
+        Logger.getLogger(HorneadorPizzaGruesa.class.getName())
+            .log(Level.INFO, "[~~] Horneando la pizza gruesa con masa gruesa.");
 
         //CODIGO DE LLAMADO AL MICROCONTROLADOR
     }
-    
+
 }
